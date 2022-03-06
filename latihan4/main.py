@@ -1,0 +1,30 @@
+from Ship import Ship
+from Airplane import Airplane
+
+#Membuat class hardware1
+ship1 = Ship(10, "Yatch", "USA")
+ship1.setfuelType("Fuel A")
+ship1.setmaxPassengers(25)
+ship1.setlicenseID("10-1234567")
+ship1.setnik("112233")
+ship2 = Ship(5, "Ferry", "USA")
+ship2.setfuelType("Fuel B")
+ship2.setmaxPassengers(50)
+ship2.setlicenseID("11-7654321")
+ship1.setnik("334455")
+ship3 = Ship(7, "Kano", "Germany")
+ship3.setfuelType("Fuel C")
+ship3.setmaxPassengers(10)
+ship3.setlicenseID("12-1234567")
+ship1.setnik("556677")
+ship4 = Ship(10, "Yatch", "Germany")
+ship4.setfuelType("Fuel A")
+ship4.setmaxPassengers(20)
+ship4.setlicenseID("10-3456789")
+ship1.setnik("778899")
+ship5 = Ship(15, "Ferry", "England")
+ship5.setfuelType("Fuel B")
+ship5.setmaxPassengers(40)
+ship5.setlicenseID("11-11223344")
+ship1.setnik("889900")
+
